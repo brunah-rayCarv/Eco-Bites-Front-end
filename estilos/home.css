@@ -1,0 +1,87 @@
+.botoesdrop{
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.linha{
+    height: 40px;
+    background-color: #372A45;
+}
+
+#manchete img{
+    width: 100%;
+}
+
+#sabores{
+    height: 450px;  
+    text-align: center;  
+}
+
+#sabores h2{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#sabores ul{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+#sabores li{
+    list-style: none;
+}
+
+#sabores img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: solid  #E53025 3px;
+    margin-bottom: 20px;
+}
+
+#sabores img:hover{
+    border: solid  black 3px;
+
+}
+
+#categorias{
+    height: 170px;  
+    text-align: center;  
+    background-color: #E8E8E8;
+    padding-top: 20px;
+}
+
+#categorias h6{
+    font-weight: bold;
+}
+
+#categorias h2{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#categorias ul{
+    display: flex;
+    justify-content: center;
+}
+
+#categorias li{
+    list-style: none;
+    margin-left: 80px;
+}
+
+#categorias img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid  #E53025 3px;
+    margin-bottom: 10px;
+}
+
+#categorias img:hover{
+    border: solid  black 3px;
+
+}
