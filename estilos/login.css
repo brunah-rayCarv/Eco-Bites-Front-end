@@ -1,0 +1,83 @@
+#login_grade{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8E8E8;
+}
+
+.inputsPart{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastresePart{
+    width: 40%;
+    height: 100vh;
+    background-color: #372A45;
+}
+
+.cadastresePart2{
+    width: 40%;
+    height: 100vh;
+    background-image: url('./imagens/banne2.png');
+
+}
+
+.inputs{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.btn{
+    width: 200px;
+}
+
+input{
+    height: 60px;
+}
+
+.inputsPart img{
+    width: 150px;
+    height: 50px;
+}
+
+.inputs h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.inputs h4{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.cadastroGrade{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+
+}
+
+
+.cadastroGrade h2{
+    font-size: 60px;
+    color: #E8E8E8;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cadastroGrade p{
+    color: #E8E8E8;
+    text-align: center;
+}
+
+.cadastroGrade a{
+    margin-left: 24%;
+
+}
+
+.botaocadastro{
+    width: 90px;
+}
+
