@@ -1,0 +1,203 @@
+.overview {
+    padding: 0px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.product-card h4 {
+    opacity: 0.7;
+}
+
+.product-card img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+
+.product-card-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card-quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card-total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shipment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.shipment-method {
+    display: flex;
+    flex-direction: column;
+}
+
+.shipment-method div {
+    margin: 8px;
+}
+
+.shipment-method::after {
+    content: "";
+    border-top: 1px solid black;
+    margin: 8px 0;
+}
+
+.shipment-cost div {
+    display: flex;
+    flex-direction: column;
+}
+
+.shipment-cost div #cep {
+    margin: 8px 0px;
+}
+
+.order-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 8px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.order-summary div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.order-summary h4 {
+    margin: 0px;
+}
+
+.order-summary h5 {
+    margin-bottom: 8px;
+}
+
+.qty-input {
+    color: black;
+    background: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    .product-qty,
+    .qty-count {
+        background: transparent;
+        color: inherit;
+        font-weight: bold;
+        font-size: inherit;
+        border: none;
+        display: inline-block;
+        min-width: 0;
+        height: 2.5rem;
+        line-height: 1;
+
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .product-qty {
+        width: 50px;
+        min-width: 0;
+        display: inline-block;
+        text-align: center;
+        appearance: textfield;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            appearance: none;
+            margin: 0;
+        }
+    }
+
+    .qty-count {
+        padding: 0;
+        cursor: pointer;
+        width: 2.5rem;
+        font-size: 1.25em;
+        text-indent: -100px;
+        overflow: hidden;
+        position: relative;
+
+        &:before,
+        &:after {
+            content: "";
+            height: 2px;
+            width: 10px;
+            position: absolute;
+            display: block;
+            background: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        &--minus {
+            border-right: 1px solid #e2e2e2;
+        }
+
+        &--add {
+            border-left: 1px solid #e2e2e2;
+
+            &:after {
+                transform: rotate(90deg);
+            }
+        }
+
+        &:disabled {
+            color: #ccc;
+            background: #f2f2f2;
+            cursor: not-allowed;
+            border-color: transparent;
+
+            &:before,
+            &:after {
+                background: #ccc;
+            }
+        }
+    }
+}

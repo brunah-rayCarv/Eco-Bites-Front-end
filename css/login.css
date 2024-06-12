@@ -1,0 +1,25 @@
+.logo {
+    margin: 64px 0px;
+}
+
+h2 strong {
+    font-size: 3rem;
+}
+
+.fields {
+    width: 300px;
+    margin: 32px 0;
+}
+
+#button {
+    width: 300px;
+    margin-top: 32px;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 128px;
+}

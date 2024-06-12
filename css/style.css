@@ -1,0 +1,431 @@
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dd,
+dt,
+dl {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+header {
+    background-color: white;
+}
+
+header div {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e53025;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #e8e8e8;
+}
+
+button img {
+    width: 20px;
+}
+
+.botoes {
+    height: 25px;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+
+.btn {
+    background-color: red;
+}
+
+.botoesdrop {
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.icons a img {
+    width: 50px;
+    height: auto;
+}
+
+#grade {
+    width: 80%;
+}
+
+
+.nav_grade {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav_grade h2 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.nav_grade a {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #e53025;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 2px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+}
+
+footer {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #e8e8e8;
+    height: 600px;
+}
+
+.cartfooter,
+.cartfooter2 {
+    height: 250px;
+    width: 250px;
+}
+
+.cartfooter img,
+.cartfooter2 img {
+    height: 40px;
+}
+
+.cartfooter hr,
+.cartfooter2 hr {
+    height: 6px;
+    background: rgb(0, 0, 0);
+}
+
+.cartfooter li,
+.cartfooter2 li {
+    list-style: none;
+}
+
+.cartfooter li a,
+.cartfooter2 li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.cartfooter a,
+.cartfooter2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.cartfooter h4,
+.cartfooter2 h4 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#redes {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#redes img {
+    margin-left: 90px;
+}
+
+#redes h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: #e8e8e8;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        background-color: #e8e8e8;
+        height: auto;
+    }
+
+    .cartfooter li a,
+    .cartfooter2 li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+
+    .cartfooter a,
+    .cartfooter2 a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+    }
+}
+
+
+.linha {
+    height: 40px;
+    background-color: #372a45;
+}
+
+#manchete img {
+    width: 100%;
+}
+
+
+
+#sabores {
+    height: 450px;
+    text-align: center;
+}
+
+#sabores h2 {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#sabores ul {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sabores li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#sabores img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: solid #e53025 3px;
+    margin-bottom: 20px;
+}
+
+#sabores img:hover {
+    border: solid black 3px;
+}
+
+#categorias {
+    height: 170px;
+    text-align: center;
+    background-color: #e8e8e8;
+    padding-top: 20px;
+}
+
+#categorias h6 {
+    font-weight: bold;
+}
+
+#categorias h2 {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#categorias ul {
+    display: flex;
+    justify-content: center;
+}
+
+#categorias ul li {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+
+#categorias img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid #e53025 3px;
+    margin-bottom: 10px;
+}
+
+#categorias img:hover {
+    border: solid black 3px;
+}
+
+#explore {
+    background-color: #e8e8e8;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.classe_cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    border: solid black 1px;
+    width: 220px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.imgProduto {
+    height: 220px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProduto img {
+    width: 90%;
+    border-radius: 5px;
+    height: 90%;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textos {
+    width: 40%;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.textos p {
+    font-weight: 900;
+}
+
+.textos span {
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+}
+
+.textos h3 {
+    font-size: 20px;
+}
+
+
+
+.banner img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .classe_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sabores {
+        height: auto;
+        text-align: center;
+    }
+
+    #explore {
+        height: auto;
+    }
+
+    #manchete img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #sabores {
+        height: auto;
+        text-align: center;
+    }
+
+    #explore {
+        height: auto;
+    }
+
+    #manchete img {
+        width: 100%;
+        height: auto;
+    }
+
+}
